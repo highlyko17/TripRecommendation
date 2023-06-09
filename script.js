@@ -16,7 +16,7 @@ form.addEventListener('submit', function (event) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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'
+      'Authorization': 'Bearer API_KEY'
     },
     body: JSON.stringify({
       'model': 'gpt-3.5-turbo',
